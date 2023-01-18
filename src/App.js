@@ -60,7 +60,7 @@ function App() {
   return (
     <>
      <div className="flex ">
-        <div className={`${menuOpen ? 'w-56' : 'w-20' } duration-300 w-64 h-screen bg-blue-900 text-white relative p-3`}>
+        <div className={`${menuOpen ? 'w-56' : 'w-20' } duration-300  h-screen bg-blue-900 text-white relative p-3`}>
           <FiArrowRightCircle  className={`w-8 h-8 absolute -right-4 top-8  ${!menuOpen&& 'rotate-180'} ${menuOpen?'w-8 h-8':'w-8 h-8'}`} onClick={()=>{setMenuOpen(!menuOpen)}}/>
           <img className={`w-10 h-10 mt-2  rounded-lg ${!menuOpen&&'rotate-[180]'}`} src={logo} alt="icon"/>
            <ul className={`pt-3  `}>
